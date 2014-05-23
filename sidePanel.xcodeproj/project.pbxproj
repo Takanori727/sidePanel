@@ -21,6 +21,12 @@
 		F8B4198118F7B21100EA8277 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F8B4196318F7B21100EA8277 /* UIKit.framework */; };
 		F8B4198918F7B21100EA8277 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = F8B4198718F7B21100EA8277 /* InfoPlist.strings */; };
 		F8B4198B18F7B21100EA8277 /* sidePanelTests.m in Sources */ = {isa = PBXBuildFile; fileRef = F8B4198A18F7B21100EA8277 /* sidePanelTests.m */; };
+		F8B4199818F7B2D200EA8277 /* JASidePanelController.m in Sources */ = {isa = PBXBuildFile; fileRef = F8B4199518F7B2D200EA8277 /* JASidePanelController.m */; };
+		F8B4199918F7B2D200EA8277 /* UIViewController+JASidePanel.m in Sources */ = {isa = PBXBuildFile; fileRef = F8B4199718F7B2D200EA8277 /* UIViewController+JASidePanel.m */; };
+		F8B4199C18F7B32200EA8277 /* MySideViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F8B4199B18F7B32200EA8277 /* MySideViewController.m */; };
+		F8B4199F18F7B6D500EA8277 /* MenuViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F8B4199E18F7B6D500EA8277 /* MenuViewController.m */; };
+		F8B41AA018F804FE00EA8277 /* secondViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F8B41A9F18F804FE00EA8277 /* secondViewController.m */; };
+		F8B41AA318F8051300EA8277 /* thirdViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F8B41AA218F8051300EA8277 /* thirdViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -53,6 +59,18 @@
 		F8B4198618F7B21100EA8277 /* sidePanelTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "sidePanelTests-Info.plist"; sourceTree = "<group>"; };
 		F8B4198818F7B21100EA8277 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		F8B4198A18F7B21100EA8277 /* sidePanelTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = sidePanelTests.m; sourceTree = "<group>"; };
+		F8B4199418F7B2D200EA8277 /* JASidePanelController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = JASidePanelController.h; path = Source/JASidePanelController.h; sourceTree = "<group>"; };
+		F8B4199518F7B2D200EA8277 /* JASidePanelController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = JASidePanelController.m; path = Source/JASidePanelController.m; sourceTree = "<group>"; };
+		F8B4199618F7B2D200EA8277 /* UIViewController+JASidePanel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "UIViewController+JASidePanel.h"; path = "Source/UIViewController+JASidePanel.h"; sourceTree = "<group>"; };
+		F8B4199718F7B2D200EA8277 /* UIViewController+JASidePanel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = "UIViewController+JASidePanel.m"; path = "Source/UIViewController+JASidePanel.m"; sourceTree = "<group>"; };
+		F8B4199A18F7B32200EA8277 /* MySideViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = MySideViewController.h; path = ../MySideViewController.h; sourceTree = "<group>"; };
+		F8B4199B18F7B32200EA8277 /* MySideViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = MySideViewController.m; path = ../MySideViewController.m; sourceTree = "<group>"; };
+		F8B4199D18F7B6D500EA8277 /* MenuViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MenuViewController.h; sourceTree = "<group>"; };
+		F8B4199E18F7B6D500EA8277 /* MenuViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MenuViewController.m; sourceTree = "<group>"; };
+		F8B41A9E18F804FE00EA8277 /* secondViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = secondViewController.h; sourceTree = "<group>"; };
+		F8B41A9F18F804FE00EA8277 /* secondViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = secondViewController.m; sourceTree = "<group>"; };
+		F8B41AA118F8051300EA8277 /* thirdViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = thirdViewController.h; sourceTree = "<group>"; };
+		F8B41AA218F8051300EA8277 /* thirdViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = thirdViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -112,11 +130,23 @@
 		F8B4196518F7B21100EA8277 /* sidePanel */ = {
 			isa = PBXGroup;
 			children = (
+				F8B4199A18F7B32200EA8277 /* MySideViewController.h */,
+				F8B4199B18F7B32200EA8277 /* MySideViewController.m */,
+				F8B41A9E18F804FE00EA8277 /* secondViewController.h */,
+				F8B41A9F18F804FE00EA8277 /* secondViewController.m */,
+				F8B41AA118F8051300EA8277 /* thirdViewController.h */,
+				F8B41AA218F8051300EA8277 /* thirdViewController.m */,
 				F8B4196E18F7B21100EA8277 /* AppDelegate.h */,
 				F8B4196F18F7B21100EA8277 /* AppDelegate.m */,
 				F8B4197118F7B21100EA8277 /* Main.storyboard */,
+				F8B4199D18F7B6D500EA8277 /* MenuViewController.h */,
+				F8B4199E18F7B6D500EA8277 /* MenuViewController.m */,
 				F8B4197418F7B21100EA8277 /* ViewController.h */,
 				F8B4197518F7B21100EA8277 /* ViewController.m */,
+				F8B4199418F7B2D200EA8277 /* JASidePanelController.h */,
+				F8B4199518F7B2D200EA8277 /* JASidePanelController.m */,
+				F8B4199618F7B2D200EA8277 /* UIViewController+JASidePanel.h */,
+				F8B4199718F7B2D200EA8277 /* UIViewController+JASidePanel.m */,
 				F8B4197718F7B21100EA8277 /* Images.xcassets */,
 				F8B4196618F7B21100EA8277 /* Supporting Files */,
 			);
@@ -249,9 +279,15 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F8B4199918F7B2D200EA8277 /* UIViewController+JASidePanel.m in Sources */,
 				F8B4197618F7B21100EA8277 /* ViewController.m in Sources */,
 				F8B4197018F7B21100EA8277 /* AppDelegate.m in Sources */,
+				F8B4199818F7B2D200EA8277 /* JASidePanelController.m in Sources */,
+				F8B41AA018F804FE00EA8277 /* secondViewController.m in Sources */,
+				F8B41AA318F8051300EA8277 /* thirdViewController.m in Sources */,
+				F8B4199F18F7B6D500EA8277 /* MenuViewController.m in Sources */,
 				F8B4196C18F7B21100EA8277 /* main.m in Sources */,
+				F8B4199C18F7B32200EA8277 /* MySideViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -456,6 +492,7 @@
 				F8B4199018F7B21100EA8277 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		F8B4199118F7B21100EA8277 /* Build configuration list for PBXNativeTarget "sidePanelTests" */ = {
 			isa = XCConfigurationList;
@@ -464,6 +501,7 @@
 				F8B4199318F7B21100EA8277 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

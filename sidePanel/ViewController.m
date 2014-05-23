@@ -17,6 +17,12 @@
 - (void)viewDidLoad
 {
     [super viewDidLoad];
+    
+    UILabel* label = [[UILabel alloc] initWithFrame:CGRectMake(100, 100, 100, 100)];
+    label.text = @"pppp";
+    label.textColor = [UIColor blackColor];
+    [self.view addSubview:label];
+
 	// Do any additional setup after loading the view, typically from a nib.
 }
 
